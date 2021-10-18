@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin">
+
+    <Button
+        android:id="@+id/fragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:text="@string/first"
+        android:textSize="@dimen/text_size"
+        android:layout_marginLeft="@dimen/margin_1">
+
+    </Button>
+        <Button
+            android:id="@+id/fragment2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:text="@string/sec"
+            android:textSize="@dimen/text_size"
+            android:layout_marginLeft="@dimen/margin_1">
+
+        </Button>
+        <Button
+            android:id="@+id/fragment3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:text="@string/third"
+            android:textSize="@dimen/text_size"
+            android:layout_marginLeft="@dimen/margin_1">
+
+        </Button>
+        <Button
+            android:id="@+id/fragment4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:text="@string/forth"
+            android:textSize="@dimen/text_size"
+            android:layout_marginLeft="@dimen/margin_1">
+
+        </Button>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_1">
+
+    </FrameLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
