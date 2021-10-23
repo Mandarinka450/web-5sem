@@ -3,12 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/3_Laba/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/3_Laba/app/src/main/res/layout/fragment1.xml" value="0.12635869565217392" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/3_Laba/app/src/main/res/layout/fragment2.xml" value="0.11510416666666666" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/3_Laba/app/src/main/res/layout/fragment3.xml" value="0.11510416666666666" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/3_Laba/app/src/main/res/layout/fragment4.xml" value="0.264" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/3_Laba/app/src/main/res/layout/fragment_1.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Laba4/app/src/main/res/drawable/ic_back.xml" value="0.2125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Laba4/app/src/main/res/drawable/ic_like.xml" value="0.2125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Laba4/app/src/main/res/drawable/shape_cruglie_ygli_card.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Laba4/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Laba4/app/src/main/res/layout/card_person.xml" value="0.536" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Laba4/app/src/main/res/layout/main_menu.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Laba4/app/src/main/res/menu/main_menu.xml" value="0.23854166666666668" />
       </map>
     </option>
   </component>

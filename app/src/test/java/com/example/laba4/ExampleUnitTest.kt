@@ -1,4 +1,4 @@
-package com.example.a3_laba
+package com.example.laba4
 
 import org.junit.Test
 

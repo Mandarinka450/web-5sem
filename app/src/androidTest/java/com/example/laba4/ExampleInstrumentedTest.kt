@@ -1,4 +1,4 @@
-package com.example.a3_laba
+package com.example.laba4
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.a3_laba", appContext.packageName)
+        assertEquals("com.example.laba4", appContext.packageName)
     }
 }

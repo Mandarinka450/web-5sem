@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin">20dp</dimen>
-    <dimen name="padding">5dp</dimen>
+    <dimen name="height_tool">56dp</dimen>
+    <dimen name="icon_size">40dp</dimen>
     <dimen name="text_size">20sp</dimen>
-    <dimen name="margin_1">10dp</dimen>
-    <dimen name="size">24sp</dimen>
-    <dimen name="size_1">20sp</dimen>
-    <dimen name="height">52dp</dimen>
+    <dimen name="margin_1">24dp</dimen>
+    <dimen name="margin_2">8dp</dimen>
+    <dimen name="card_height">178dp</dimen>
+    <dimen name="panel_up_margin_top">16dp</dimen>
+    <dimen name="height">64dp</dimen>
+    <dimen name="height_text">20dp</dimen>
+    <dimen name="size_2">16sp</dimen>
+    <dimen name="height_3">24dp</dimen>
+    <dimen name="size_3">14sp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="line_height">20.63sp</dimen>
+    <dimen name="text_siz_1">10sp</dimen>
+    <dimen name="margin_like_top">4dp</dimen>
+    <dimen name="margin_3">12dp</dimen>
+    <dimen name="margin_4">10dp</dimen>
+    <dimen name="text_size_2">14sp</dimen>
+    <dimen name="margin_5">18dp</dimen>
+    <dimen name="margin_6">4dp</dimen>
 </resources>
