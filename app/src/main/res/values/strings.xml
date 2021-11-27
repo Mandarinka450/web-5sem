@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">Laba4</string>
-    <string name="title">Личности</string>
-    <string name="search">Искать</string>
+    <string name="app_name">Pattern</string>
 </resources>
