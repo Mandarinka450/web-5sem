@@ -1,22 +1,17 @@
 package com.example.laba4
 
-
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.Menu
-import android.widget.SearchView
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.laba4.databinding.ActivityMainBinding
-import com.google.android.material.snackbar.Snackbar
+
+interface TaskCallbacks {
+    fun onPreExecuted()
+    fun onCancelled()
+    fun onPostExecute(i: String)
+}
 
 class MainActivity : AppCompatActivity(){
-
-//    private var personCreate = PersonHolder.createCollectionPerson()
-
-    private val verticalLinearLayoutManager: LinearLayoutManager =
-        LinearLayoutManager(this, RecyclerView.VERTICAL, false)
 
     private lateinit var binding: ActivityMainBinding
 
@@ -24,22 +19,21 @@ class MainActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        setupRecycleView()
+        val lastFragmentAsyncTask = supportFragmentManager.findFragmentByTag(AsyncFragment.MyTag)
+        if (lastFragmentAsyncTask == null) {
+            val transactionInitialization = supportFragmentManager
+                .beginTransaction()
+                .add(
+                    R.id.fragment_container,
+                    AsyncFragment(),
+                    AsyncFragment.MyTag
+                )
+                .addToBackStack("added fragment")
+            transactionInitialization.commit()
+        }else {
+            Log.d("fragment", "fragment is already exists")
+        }
+
     }
-
-    private fun setupRecycleView(){
-        binding.cardPerson.layoutManager = verticalLinearLayoutManager
-        binding.cardPerson.adapter = PersonAdapter(PersonHolder.createCollectionPerson(), ::showSnackbar, ::showSnackbarLike)
-
-    }
-
-    private fun showSnackbar(person: Person): Unit{
-        Snackbar.make(binding.root, "Нажата карточка: " + person.name, 3000).show()
-    }
-    private  fun showSnackbarLike(person: Person): Unit{
-        Snackbar.make(binding.root, "Нажат лайк:  " + person.name, 3000).show()
-    }
-
-
-
 }
+
