@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.NodeFragment"
+    android:id="@+id/constraintLayoutId">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="@dimen/len5"
+        android:layout_height="@dimen/len6"
+        android:layout_marginBottom="@dimen/len7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/connections_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/len8"
+            android:scrollbars="vertical"
+            app:layoutManager="LinearLayoutManager">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </FrameLayout>
+    <View
+        android:id="@+id/snackbar_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/len9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </View>
+    <Button
+        android:id="@+id/Button_child"
+        android:layout_width="@dimen/len10"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/len1"
+        android:layout_marginBottom="@dimen/len1"
+        android:padding="@dimen/len11"
+        android:textColor="@color/black"
+        android:text="@string/children"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/white"/>
+
+    <Button
+        android:id="@+id/Button_parents"
+        android:layout_width="@dimen/len10"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/len1"
+        android:layout_marginBottom="@dimen/len1"
+        android:padding="@dimen/len11"
+        android:text="@string/parents"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/white"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

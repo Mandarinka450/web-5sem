@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/add_value"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/len1"
+        android:layout_marginLeft="@dimen/len2"
+        android:layout_marginRight="@dimen/len2"
+        android:layout_marginBottom="@dimen/len2"/>
+</LinearLayout>

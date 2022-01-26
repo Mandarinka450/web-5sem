@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">Laba4</string>
-    <string name="title">Сообщения</string>
-    <string name="search">Искать</string>
+    <string name="app_name">Лабораторная 6</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Лабораторная 6</string>
+    <string name="edit">Редактировать</string>
+    <string name="next">Следующий</string>
+    <string name="previous">Предыдущий</string>
+    <string name="add">Добавить</string>
+    <string name="parents">Родители</string>
+    <string name="children">Дети</string>
 </resources>
